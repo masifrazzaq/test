@@ -150,7 +150,7 @@ Finally reasoning was performed used pellet reasoner i.e. pellet-core-2.3.2 reas
 
 # 6. License
 
-Copyright [2016] [Claudia Villalonga and Muhammad Asif Razzaq]
+Copyright :copyright: [2016] [Claudia Villalonga and Muhammad Asif Razzaq]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
