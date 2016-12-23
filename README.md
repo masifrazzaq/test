@@ -31,27 +31,19 @@
 
 # 1. Introduction
 
-In Mining Minds the sensory data is modelled ontologically in the form of RDF Triples.  The Mining Minds Context Ontology (MMCO) models context for human behavior identification in order to enable the provision of personalized health and wellness services in Mining Minds. Since many researchers have proposed widely-accepted definitions of context, and through this interpretations of context have arisen.  In Mining Minds, human context is understood as any information characterizing the physical, mental and social situation of a person which enables the identification of human behavior.  Furthermore, human context is here categorized into two different levels of abstraction: low-level context (LLC) and high-level context (HLC).  HLC has further two main classes, Physical Activity high level context (PA-HLC) and nutrition high level context (N-HLC).
+In Mining Minds the sensory data is modelled ontologically in the form of RDF Triples.  The Mining Minds Context Ontology (MMCO) models context for human behavior identification in order to enable the provision of personalized health and wellness services in Mining Minds. Since many researchers have proposed widely-accepted definitions of context, and through this interpretations of context have arisen.  In Mining Minds, human context is understood as any information characterizing the physical, mental and social situation of a person which enables the identification of human behavior.  Furthermore, human context is here categorized into two different levels of abstraction: low-level context (LLC) and high-level context (HLC).  HLC has further two main classes, Physical Activity high level context (PA-HLC) and nutrition high level context (N-HLC).  You can have a look at [how MMCO V2.5 is designed](http://www.miningminds.re.kr/lifelog/context/context-v2.5.owl).
 
-
-HMMCO  ontologies with [owlapi](http://owlapi.sourceforge.net/) and ingests
-ontology formats available to owlapi (OWL, RDF, OBO, TTL, etc).
-Have a look at [how SciGraph translates some simple ontologies](http://www.miningminds.re.kr/lifelog/context/context-v2.5.owl).
+This  MMCO  ontologies with [owlapi](http://owlapi.sourceforge.net/) and ingests ontology formats available to owlapi (OWL, RDF, etc).  HLCA addresses following.
 
 Goals:
 * OWL 2 Support
-* Provide a simple, usable, Neo4j representation
-* Efficient, parallel ontology ingestion
+* Provide a simple, usable, MMCO representation
+* Efficient, Extendable ontology proposed 
 * Provide basic "vocabulary" support
-* Stay domain agnostic
-
-Non-goals:
-* Create ontologies based on the graph
 * Reasoning support
+* Extend MMCO based on requirements
 
 
-
- 
 ## 1.1 Core Implementation
 
 The main project developed is Maven based Bridge and Singleton Patterns.
