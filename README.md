@@ -146,7 +146,8 @@ Finally reasoning was performed used pellet reasoner i.e. pellet-core-2.3.2 reas
 >*Muhammad Asif Razzaq*: :email: asif.razzaq@oslab.khu.ac.kr
 
 >*Wajahat Ali Khan*: :email: wajahat.alikhan@oslab.khu.ac.kr
-
+:large_blue_diamond:
+:large_purple_diamond:
 # 6. License
 
 Copyright [2016] [Claudia Villalonga and Muhammad Asif Razzaq]
