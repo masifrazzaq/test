@@ -99,14 +99,9 @@ The requirements for executing HLCA are as under:
 	*	Start Command Prompt
 	*	Change the directory to your project directory and folder
 	*	Run “mvn clear install” command
-
-	*	You can import the project in Eclipse via
-		File > Import... > Existing Projects into Workspace
-	*	You can run mvn eclipse:eclipse to re-generate Eclipse .project and .classpath
-		files automatically from your pom.xml file.
-
-
-
+	*	-------------------------------------------------------
+	*	You can import the project in Eclipse via File > Import... > Existing Projects into Workspace
+	*	You can run mvn eclipse:eclipse to re-generate Eclipse .project and .classpath files automatically from your pom.xml file.
 ## 2.3 Usage
 
 Once environment has been setup, the user (domain expert) can use this user friendly authoring environment to manage the knowledge base by creating new rules and editing the existing rules. User can 
