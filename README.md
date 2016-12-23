@@ -49,7 +49,7 @@ Goals:
 
 ## 1.1 Core Implementation
 
-The main project developed is Java based exploiting Bridge and Singleton Design Patterns in Maven project.
+HLCA is java based project developed by exploiting structural Bridge and creational Singleton Design Patterns in Maven project.  This made HLCA system independent and can be plugged played with Mining Minds platform. 
 
 ## Intent & Applicability for Bridge Design Pattern
 In the Bridge design pattern we decouple an abstraction from its implementation so that the two can vary independently.  
@@ -63,9 +63,11 @@ In the Bridge design pattern we decouple an abstraction from its implementation 
 
 ## Intent & Applicability for Singleton Design Pattern
 Ensured that a class only has one instance, and provide a global point of access to it.  We also used singleton design pattern so that 
-* there must be exactly one instance of a class, and it must be accessible to clients through authorized access point
 * the instance is only extensible by subclassing without modifying their code.
-
+* there must be exactly one instance of a class, and it must be accessible and enforced to clients through authorized access point
+* --------------------------------------------------------------------------------------------
+* Singleton Design pattern in this implementation was applied for ContextQueryGenerator and ContextHandler classes so that they can be used further without modifying codes.
+ 
 
 			
 # 2. Getting Started
