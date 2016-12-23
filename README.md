@@ -64,35 +64,7 @@ The main project developed is Maven based Bridge and Singleton Patterns.
 	- Wellness Model Controller:
 		We provided the intelli-sense to the domain experts on the rule editor to create rules using some controlled vocabulary. Wellness Model Concepts are
 		using in creation of rules. Therefore, "WellnessModelController" handles the communication between views and wellness concepts model.
-- Models:<br>
-	Models is responsible for persisting and fetching the knowledge rules with corresponding conditions, conclusions, and situations from knowledge bases. The
-	model contains three different packages as datamodel, dao (data access objects), and services.
-	- Data Models:
-		The data models are represented in different entity classes based on Rule, Conclusion, Condition, Situation, User, Wellness Concepts Model, and Wellness
-		Concepts Relationships. These data models are put under the package "org.uclab.mm.kcl.edkat.datamodel".
-	- DAO (Data Access Object):
-		DAO handles the persistence and retrival of all knowledge artifacts such as rules, conditions, conclusions, situations, wellness concepts, and users. According to
-		the standard structure of data access layer, DAO contain one interface and one correspinding implementation class for each above mentioned knowledge artifacts. For
-		example, RuleDAO interface and RuleDAOImpl is the correspinding implementation class to handle the rules of knowledge base. Similarly, ConditionDAO and ConditionDAOImpl
-		for conditions, ConclusionDAO and ConclusionDAO for conclusions, SituationDAO and SituationDAOImpl for situations and so on. All these data access object and handlers 
-		are implemented according to Hibernate framework.
-	- Services:
-		These are local services to handle the communication between controllers and DAO objects and its implementation. The services also contains one interface and one 
-		correspinding implementation class. For example, RuleService is interface and RuleServiceImpl is its implementation. Similarly, ConditionService and ConditionServiceImpl
-		is handling conditions of a rule, ConclusionService and ConclusionServiceImpl is for conclusions of a rule and so on.
-- Views:<br>
-	According to spring mvc pattern, views are responsible to view the user interfaces by rendering the correspinding html. The rendered html is merged with data retrived by controllers
-	using particular DAO and services. In this project, we have following three view.
-	- Login View:
-		The login view is responsible to authenticate the authorized users (domain expert), who have the rights to access, create, and modify the rules in the knowledge base.
-	- Dasboard View:
-		We have implemented the dashboard view for viewing the existing rules in the knowledge base at a single glance. The dashboard show the meta information of the rules like
-		rule title, specialist name, institution, rule created date, and two button for Editing and deleting the existing rules. The domain expert can also navigate to rule editor
-		by clicking "Add new rule" button.
-	- Rule Editor View:
-		The rule editor view is the main editor for creating new rule and updating the existing rules. This editor provides saparate slot for meta information of the rule, saparate
-		slot for adding multiple conditions of a particular rule, saparate slot for multiple conclusions of the rule. The rule editor also facilitates the domain experts to select
-		required conditional facts as situations. The selected situations are using by life-log monitor to find the abnormal situations of the user.
+
 			
 # 2. Getting Started
 
@@ -105,39 +77,11 @@ The requirements for executing HLCA are as under:
 - Java version: JDK 1.8 
 - Maven: Apache-maven-3.2.2
 
-Once you have Maven installed, verify with:
 
-  mvn -version
-  
-Then run (once) this to download all the necessary dependencies:
-
-  cd HLCA
-  mvn package
-
-You can import the project in Eclipse via
-File > Import... > Existing Projects into Workspace
-
-You can run mvn eclipse:eclipse to re-generate Eclipse .project and .classpath
-files automatically from your pom.xml file.
 
 
 
 ## 2.2 Installation
-- Database Intallation:
-	*	Microsoft SQL Sever 2012
-	*	Install the database and set its password and login id
-	*	Where Server name is (local)
-	*	Authentication is set to “SQL Server Authentication”
-	*	Create a database with Name “MMIKATDB_V2”
-	*	Select the database “MMIKATDB_V2” and right click and select new query
-	*	Download the “MiningMindsIKATSchema.sql” and "MiningMindsIKATData.sql"
-	*	Open the “MiningMindsIKATSchema.sql" file.
-	*	Copy all the queries and paste into  new query window.
-	*	Then Execute the query, it will create database with whole schema.
-	*	Open the "MiningMindsIKATData.sql" file.
-	*	Copy all the queries and paste into  new query window.
-	*	Then Execute the query, it will import all the data of Mining Minds.
-	*	Database is ready for the working
 - Java and JDK setup
 	JDK and JAVA_HOME
 	*	Make sure JDK is installed, and “JAVA_HOME” variable is added as Windows environment variable
@@ -151,15 +95,19 @@ files automatically from your pom.xml file.
 	*	Add to PATH
 	*	Update PATH variable, append Maven bin folder, so that you can run the Maven’s command everywhere.
 	*	Verification by running  mvn –version in the command prompt.
--Apache Tomcat Installation
-	*	Goto http://tomcat.apache.org ⇒ Downloads ⇒ Tomcat 8.0 ⇒ "8.0.{xx}" (where {xx} is the latest upgrade number) ⇒ Binary Distributions ⇒ Core ⇒ "ZIP" package (e.g., "apache-tomcat-8.0.{xx}.zip", about 8 MB).
-	*	Create your project directory, say "drive:\myProject" or "drive:\myProject". UNZIP the downloaded file into your project directory. Tomcat will be unzipped into directory "drive:\myProject\apache-tomcat-8.0.{xx}".
-	*	For ease of use, we shall shorten and rename this directory to "drive:\myProject\tomcat".
 -Build Project
+	*	Once you have Maven installed, verify with:
+		mvn -version
+  		Then run (once) this to download all the necessary dependencies:
 	*	Download src and pom file into the appropriate project folder
 	*	Start Command Prompt
 	*	Change the directory to your project directory and folder
 	*	Run “mvn clear install” command
+
+	*	You can import the project in Eclipse via
+		File > Import... > Existing Projects into Workspace
+	*	You can run mvn eclipse:eclipse to re-generate Eclipse .project and .classpath
+		files automatically from your pom.xml file.
 
 
 
