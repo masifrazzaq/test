@@ -116,17 +116,17 @@ The requirements for executing HLCA are as under:
 	*	You can run mvn eclipse:eclipse to re-generate Eclipse .project and .classpath files automatically from your pom.xml file.
 	
 ## 2.3 Usage
-Once environment has been setup, the user (domain expert) can use this user friendly authoring environment to manage the knowledge base by creating new rules and editing the existing rules. User can 
-modify and customize the code according to their requirements. But users should follow the same spring mvc pattern and hibernate framework for updation the code.
-*	Add new required table or update the existing table in database "MMIKATDB_V2".
-*	Add new or update existing controller under the package "org.uclab.mm.kcl.edkat.controller"
-*	Add new or update the existing views according to the requirements under the folder hierarchy src/main/webapp/WEB-INF/views according to followed pattern.
+Once environment has been setup, the user (domain expert) can use this user friendly authoring environment to manage the knowledge base 
+
 
 # 3. Features
 
-Write the main features 
-
-- Providing user-friendly environment to expert for transformation of their experiences into knowledge base. 
+##OWLAPI
+HLCA uses the features of OWL API which is a Java based API for creating, manipulating and serialising OWL Ontologies.  In this implementation we have used OWLAPI-v3.4.10.  It is available under Open Source licenses (LGPL and Apache).  
+##JenaTDB
+In order to manipulate and persistance of triplese Jena-tdb-v1.0.2 was used.  
+##Reasoning
+Finally reasoning was performed used pellet reasoner i.e. pellet-core-2.3.2 reasoner.
 
 
 # 4. Contributions
