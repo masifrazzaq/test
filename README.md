@@ -37,15 +37,14 @@ In Mining Minds the sensory data is modelled ontologically in the form of RDF Tr
 	-	Also It can be visualized in the Screenshot as under 
 		![](./MMCO2-5.PNG)
 
-This  MMCO  ontologies with [owlapi](http://owlapi.sourceforge.net/) and ingests ontology formats available to owlapi (OWL, RDF, etc).  HLCA addresses following.
+This  MMCO  ontologies with [owlapi](http://owlapi.sourceforge.net/) and ingests ontology formats available to owlapi (OWL, RDF, etc).  MMCO addresses following goals.
 
 Goals:
 * OWL 2 Support
-* Provide a simple, usable, MMCO representation
-* Efficient, Extendable ontology proposed 
+* Provide a simple, usable, MMCO representation for multi-model contexts
+* Efficient, Extendable MMCO 
 * Provide basic "vocabulary" support
 * Reasoning support
-* Extend MMCO based on requirements
 
 
 ## 1.1 Core Implementation
