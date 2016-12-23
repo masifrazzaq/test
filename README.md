@@ -23,7 +23,7 @@
    
 - [4. Contributions](#4-contributions)
    
-- [5. Author](#5-author)
+- [5. Authors](#5-authors)
 
 - [6. License](#6-license)
 
@@ -121,19 +121,22 @@ Once environment has been setup, the user (domain expert) can use this user frie
 
 # 3. Features
 
-##OWLAPI
+###OWLAPI
 HLCA uses the features of OWL API which is a Java based API for creating, manipulating and serialising OWL Ontologies.  In this implementation we have used OWLAPI-v3.4.10.  It is available under Open Source licenses (LGPL and Apache).  
-##JenaTDB
+###JenaTDB
 In order to manipulate and persistance of triplese Jena-tdb-v1.0.2 was used.  
-##Reasoning
+###Reasoning
 Finally reasoning was performed used pellet reasoner i.e. pellet-core-2.3.2 reasoner.
 
 
 # 4. Contributions
 
--	Provide user-friendly Rule Editor to domain experts to maintain the knowledge base. 
-
-
+-	This work has presented an ontology-based method for deriving PA-HLC and N-HLC out of the combination of cross-domain low-level context primitives, namely activities, locations, emotions and food. 
+-	The modeling of the low-level, PA-HLC and N-HLC are defined through the so-called Mining Minds Context Ontology. 
+-	The processing and inference of contexts is performed by the Mining Minds High-Level Context Architecture implementation.
+-	The unprecedented incorporation of emotions and food items in the context definition enables the representation of new PA-HLC and N-HLC that can only be identified whenever a specific emotion takes place and user take food in meals as LLC. 
+-	The Mining Minds Context Ontology has also been designed to procure the identification PA-HLC and N-HLC even in the absence of emotion and Food information. 
+-	This implementation of Mining Minds HLCA built on the MMCO enable the inference of PA-HLC and N-HLC from low-level context primitives in real time. 
 
 # 5. Authors
 <!--  Name : Claudia Villalonga and Muhammad Asif Razzaq-->
