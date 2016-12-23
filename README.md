@@ -10,9 +10,6 @@
 
 <!-- Update the list and the main body. -->
 
-
-
-
 - [1. Introduction](#1-introduction)
     - [1.1 Core Implementation](#11-core-implementation)
    
@@ -34,7 +31,8 @@
 
 # 1. Introduction
 
-SciGraph aims to represent ontologies and data described using ontologies as a Neo4j graph. SciGraph
+In Mining Minds the sensory data is modelled ontologically in the form of RDF Triples.  
+aims to represent ontologies and data described using ontologies as a Neo4j graph. SciGraph
 reads ontologies with [owlapi](http://owlapi.sourceforge.net/) and ingests
 ontology formats available to owlapi (OWL, RDF, OBO, TTL, etc).
 Have a look at [how SciGraph translates some simple ontologies](https://github.com/SciGraph/SciGraph/wiki/Neo4jMapping).
