@@ -121,11 +121,11 @@ Once environment has been setup, the user (domain expert) can use this user frie
 
 # 3. Features
 
-###OWLAPI
+####OWLAPI
 HLCA uses the features of OWL API which is a Java based API for creating, manipulating and serialising OWL Ontologies.  In this implementation we have used OWLAPI-v3.4.10.  It is available under Open Source licenses (LGPL and Apache).  
-###JenaTDB
+####JenaTDB
 In order to manipulate and persistance of triplese Jena-tdb-v1.0.2 was used.  
-###Reasoning
+####Reasoning
 Finally reasoning was performed used pellet reasoner i.e. pellet-core-2.3.2 reasoner.
 
 
