@@ -86,9 +86,10 @@ The requirements for executing HLCA are as under:
 
 
 ## 2.2 Installation
-Java and JDK setup
-	*	JDK and JAVA_HOME
+- Java and JDK setup
+	JDK and JAVA_HOME
 	*	Make sure JDK is installed, and “JAVA_HOME” variable is added as Windows environment variable
+	
 Apache Maven Installation
 	*	Download Apache Maven and install it
 	*	Visit Maven official website, download the Maven zip file,
