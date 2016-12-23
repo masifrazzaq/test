@@ -59,17 +59,10 @@ In the Bridge design pattern we decouple an abstraction from its implementation 
 * Shares an implementation among multiple objects and fact remains hidden from the client. 
 
 ## Intent & Applicability for Singleton Design Pattern
+Ensured that a class only has one instance, and provide a global point of access to it.  We also used singleton design pattern so that 
+* there must be exactly one instance of a class, and it must be accessible to clients through authorized access point
+* the instance is only extensible by subclassing without modifying their code.
 
-- Controllers:<br>
-	The controllers provide bridge between contains under the package of "org.uclab.mm.kcl.edkat.controller".
-	- Rule Controller:
-		It plays an important role in handling the knowledge base. represented as "RulesController".
-	- User Controller:
-		This controller is responsible to handle the users (domain experts), which are using the knowledge authoring tool. It provides bridge between the
-		views and user's model. It is implemented as "UserController".
-	- Wellness Model Controller:
-		We provided the intelli-sense to the domain experts on the rule editor to create rules using some controlled vocabulary. Wellness Model Concepts are
-		using in creation of rules. Therefore, "WellnessModelController" handles the communication between views and wellness concepts model.
 
 			
 # 2. Getting Started
