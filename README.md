@@ -49,7 +49,17 @@ Goals:
 
 ## 1.1 Core Implementation
 
-The main project developed is Maven based Bridge and Singleton Patterns.
+The main project developed is Java based exploiting Bridge and Singleton Design Patterns in Maven project.
+
+## Intent & Applicability for Bridge Design Pattern
+In the Bridge design pattern we decouple an abstraction from its implementation so that the two can vary independently.  
+* We avoided permanent binding between an abstraction and its implementation.
+* Both the abstractions and their implementations are extensible by subclassing. This implementation of Bridge pattern allows to  combine the different abstractions and implementations and extend them independently
+* changes in the implementation of an abstraction has no impact on clients
+* Shares an implementation among multiple objects and fact remains hidden from the client. 
+
+## Intent & Applicability for Singleton Design Pattern
+
 - Controllers:<br>
 	The controllers provide bridge between contains under the package of "org.uclab.mm.kcl.edkat.controller".
 	- Rule Controller:
