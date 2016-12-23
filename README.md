@@ -31,11 +31,12 @@
 
 # 1. Introduction
 
-In Mining Minds the sensory data is modelled ontologically in the form of RDF Triples.  
-aims to represent ontologies and data described using ontologies as a Neo4j graph. SciGraph
-reads ontologies with [owlapi](http://owlapi.sourceforge.net/) and ingests
+In Mining Minds the sensory data is modelled ontologically in the form of RDF Triples.  The Mining Minds Context Ontology (MMCO) models context for human behavior identification in order to enable the provision of personalized health and wellness services in Mining Minds. Since many researchers have proposed widely-accepted definitions of context, and through this interpretations of context have arisen.  In Mining Minds, human context is understood as any information characterizing the physical, mental and social situation of a person which enables the identification of human behavior.  Furthermore, human context is here categorized into two different levels of abstraction: low-level context (LLC) and high-level context (HLC).  HLC has further two main classes, Physical Activity high level context (PA-HLC) and nutrition high level context (N-HLC).
+
+
+HMMCO  ontologies with [owlapi](http://owlapi.sourceforge.net/) and ingests
 ontology formats available to owlapi (OWL, RDF, OBO, TTL, etc).
-Have a look at [how SciGraph translates some simple ontologies](https://github.com/SciGraph/SciGraph/wiki/Neo4jMapping).
+Have a look at [how SciGraph translates some simple ontologies](http://www.miningminds.re.kr/lifelog/context/context-v2.5.owl).
 
 Goals:
 * OWL 2 Support
