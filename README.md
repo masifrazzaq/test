@@ -90,7 +90,7 @@ The requirements for executing HLCA are as under:
 	JDK and JAVA_HOME
 	*	Make sure JDK is installed, and “JAVA_HOME” variable is added as Windows environment variable
 	
-Apache Maven Installation
+- Apache Maven Installation
 	*	Download Apache Maven and install it
 	*	Visit Maven official website, download the Maven zip file,
 		for example : apache-maven-3.3.9-bin.zip. Unzip it to the folder you want to install Maven.
@@ -100,10 +100,10 @@ Apache Maven Installation
 	*	Add to PATH
 	*	Update PATH variable, append Maven bin folder, so that you can run the Maven’s command everywhere.
 	*	Verification by running  mvn –version in the command prompt.
-Jena TDB
+- Jena TDB
 	*	HLCA using Semantic technologies, also requires using triple stores. In scope of Mining Minds project, HLCA requires  triple store as its back-end. We opted Jena TDB which is native file based triple store of Jena, highly scalable and requires no extra tool other than Jena Framework.
 	
-Build Project
+- Build Project
 	*	Once you have Maven installed, verify with:
 		mvn -version
   		Then run (once) this to download all the necessary dependencies:
