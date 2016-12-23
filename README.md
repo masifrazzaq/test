@@ -57,6 +57,9 @@ In the Bridge design pattern we decouple an abstraction from its implementation 
 * Both the abstractions and their implementations are extensible by subclassing. This implementation of Bridge pattern allows to  combine the different abstractions and implementations and extend them independently
 * changes in the implementation of an abstraction has no impact on clients
 * Shares an implementation among multiple objects and fact remains hidden from the client. 
+* --------------------------------------------------------------------------------------------
+* We implemented Bridge design pattern for Context Class as an abstraction.  NutritionContext and PhysicalActivityContext Classes work independently and are extended from Context Class.  Similarly Context Handler is extended from AbstractHandler class, which can be extended for future use.  The features of Bridge design patterns were also used in ContextOntology class which was extended from AbstractOntology and lastly High level context reasoner i.e. HLCReasoner was extended from AbstractReasoner class.  These were the core areas of High Level Context Awareness in which Bridge Design Patterns were used.
+
 
 ## Intent & Applicability for Singleton Design Pattern
 Ensured that a class only has one instance, and provide a global point of access to it.  We also used singleton design pattern so that 
