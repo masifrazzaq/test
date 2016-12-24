@@ -13,6 +13,8 @@
 
 - [1. Introduction](#1-introduction)
     - [1.1 Core Implementation](#11-core-implementation)
+    :small_red_triangle_down: [Intent & Applicability for Bridge Design Pattern]
+    :small_red_triangle_down: [Intent & Applicability for Singleton Design Pattern]
    
 - [2. Getting started](#2-getting-Started)
     - [2.1 General Requirements](#21-general-requirements)
