@@ -111,7 +111,7 @@ The requirements for executing HLCA are as under:
 Once environment has been setup, MMCO v2.5 placed in the folder, the user can use HLCA.  **HLCAMapperTest** can be executed for adding new LLC of any form w.r.t. MMCO v2.5.  This will add User context to *Jena TDB* and for instance if **Sitting** LLC is added which will look like 
 ![](./SittingLLC.PNG)
 
-After creating enough LLC, User can test **HLCAMapperTest** in order to infer PA-HLC and N-HLC based on LLC like Activity, Location, Emotin and Food.  These inferred PA-HLC and N-HLC would be according to the Constraint based Rules defined in MMCO v2.5.
+After creating enough LLC, User can test **TestHLCA** in order to infer PA-HLC and N-HLC based on LLC like Activity, Location, Emotin and Food.  These inferred PA-HLC and N-HLC would be according to the Constraint based Rules defined in MMCO v2.5.
 
 # 3. Features
 
