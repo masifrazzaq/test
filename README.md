@@ -13,9 +13,7 @@
 
 - [1. Introduction](#1-introduction)
     - [1.1 Core Implementation](#11-core-implementation)
-    :small_red_triangle_down: [Intent & Applicability for Bridge Design Pattern]
-    :small_red_triangle_down: [Intent & Applicability for Singleton Design Pattern]
-   
+ 
 - [2. Getting started](#2-getting-Started)
     - [2.1 General Requirements](#21-general-requirements)
     - [2.2 Installation](#22-installation)
@@ -53,7 +51,7 @@ Goals:
 
 HLCA is java based project developed by exploiting structural Bridge and creational Singleton Design Patterns in Maven project.  This made HLCA system independent and can be plugged played with Mining Minds platform. 
 
-## Intent & Applicability for Bridge Design Pattern
+## :small_red_triangle_down: Intent & Applicability for Bridge Design Pattern
 In the Bridge design pattern we decouple an abstraction from its implementation so that the two can vary independently.  
 * We avoided permanent binding between an abstraction and its implementation.
 * Both the abstractions and their implementations are extensible by subclassing. This implementation of Bridge pattern allows to  combine the different abstractions and implementations and extend them independently
@@ -65,7 +63,7 @@ In the Bridge design pattern we decouple an abstraction from its implementation 
 * Lastly High level context reasoner i.e. **HLCReasoner** class is extended from **AbstractReasoner** class in the **mm.icl.hlc.HLCReasoner** package.  
 These were the core areas of High Level Context Awareness in which Bridge Design Patterns were used.
 
-## Intent & Applicability for Singleton Design Pattern
+## :small_red_triangle_down: Intent & Applicability for Singleton Design Pattern
 Ensured that a class only has one instance, and provide a global point of access to it.  We also used singleton design pattern so that 
 * the instance is only extensible by subclassing without modifying their code.
 * there must be exactly one instance of a class, and it must be accessible and enforced to clients through authorized access point
