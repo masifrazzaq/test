@@ -6,9 +6,7 @@
 [![License](https://img.shields.io/badge/Pellet--core-2.3.2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![License](https://img.shields.io/badge/owlapi--api-3.4.10-brightgreen.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
-
 --------------------------
-
 <!-- Update the list and the main body. -->
 
 - [1. Introduction](#1-introduction)
@@ -113,9 +111,7 @@ The requirements for executing HLCA are as under:
 Once environment has been setup, MMCO v2.5 placed in the folder, the user can use HLCA.  **HLCAMapperTest** can be executed for adding new LLC of any form w.r.t. MMCO v2.5.  This will add User context to *Jena TDB* and for instance if **Sitting** LLC is added which will look like 
 ![](./SittingLLC.PNG)
 
-
-
-
+After creating enough LLC, User can test **HLCAMapperTest** in order to infer PA-HLC and N-HLC based on LLC like Activity, Location, Emotin and Food.  These inferred PA-HLC and N-HLC would be according to the Constraint based Rules defined in MMCO v2.5.
 
 # 3. Features
 
@@ -125,7 +121,6 @@ HLCA uses the features of OWL API which is a Java based API for creating, manipu
 In order to manipulate and persistance of triplese Jena-tdb-v1.0.2 was used.  
 ####Reasoning
 Finally reasoning was performed used pellet reasoner i.e. pellet-core-2.3.2 reasoner.
-
 
 # 4. Contributions
 
