@@ -71,7 +71,7 @@ Ensured that a class only has one instance, and provide a global point of access
 			
 # 2. Getting Started
 
-This consist of the following sub-headings. 
+Following subsections will explain how to use HLCA independently starting from Installation perspective to implementation.  Requirements for installation and installation procedures are discussed briefly. 
 
 ## 2.1 Requirements
 
